@@ -13,3 +13,11 @@ sh -c "{ echo ':8080 {'; echo \"  reverse_proxy https://$PANEL_UPSTREAM {\"; ech
 PANEL_UPSTREAM <= varible In Proxy
 
 ${{PasarGuard.RAILWAY_PRIVATE_DOMAIN}}:8000 <= varible panel
+
+
+
+# Port:
+PasarGuard-Node:
+8880
+Proxy:
+8080
